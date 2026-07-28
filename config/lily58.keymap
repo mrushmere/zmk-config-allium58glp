@@ -16,6 +16,8 @@
 #define adjust_layer 3
 #define extra_layer 4
 
+&soft_off { hold-time-ms = <1000>; };
+
 / {
     keymap {
         compatible = "zmk,keymap";
